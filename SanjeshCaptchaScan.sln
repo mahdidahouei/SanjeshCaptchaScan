@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanjeshCaptchaScan", "SanjeshCaptchaScan.csproj", "{9F84E21F-6E2B-49C2-9EEF-20099CE6156F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F84E21F-6E2B-49C2-9EEF-20099CE6156F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F84E21F-6E2B-49C2-9EEF-20099CE6156F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F84E21F-6E2B-49C2-9EEF-20099CE6156F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F84E21F-6E2B-49C2-9EEF-20099CE6156F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F447E4E6-37F2-4FBC-A526-7BA445A11896}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\x86\liblept1753.dll
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\x86\libtesseract3052.dll
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\x64\liblept1753.dll
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\x64\libtesseract3052.dll
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.bigrams
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.fold
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.lm
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.nn
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.params
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.size
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.word-freq
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.tesseract_cube.nn
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\tessdata\eng.traineddata
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\SanjeshCaptchaScan.exe.config
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\SanjeshCaptchaScan.exe
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\SanjeshCaptchaScan.pdb
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\Tesseract.dll
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csprojAssemblyReference.cache
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.Form1.resources
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.Properties.Resources.resources
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csproj.GenerateResource.cache
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csproj.CoreCompileInputs.cache
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csproj.CopyComplete
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.exe
+C:\Users\Mahdi\Desktop\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.pdb
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\x86\liblept1753.dll
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\x86\libtesseract3052.dll
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\x64\liblept1753.dll
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\x64\libtesseract3052.dll
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.bigrams
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.fold
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.lm
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.nn
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.params
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.size
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.cube.word-freq
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.tesseract_cube.nn
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\tessdata\eng.traineddata
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\SanjeshCaptchaScan.exe.config
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\SanjeshCaptchaScan.exe
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\SanjeshCaptchaScan.pdb
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\HtmlAgilityPack.dll
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\Tesseract.dll
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\HtmlAgilityPack.pdb
+D:\programing projects\SanjeshCaptchaScan\bin\Debug\HtmlAgilityPack.xml
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csprojAssemblyReference.cache
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.Form1.resources
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.Properties.Resources.resources
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csproj.GenerateResource.cache
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csproj.CoreCompileInputs.cache
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.csproj.CopyComplete
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.exe
+D:\programing projects\SanjeshCaptchaScan\obj\Debug\SanjeshCaptchaScan.pdb
