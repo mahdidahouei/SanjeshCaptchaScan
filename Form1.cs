@@ -113,22 +113,15 @@ namespace SanjeshCaptchaScan
 
             finalImage = rotateImage(finalImage, degree);
 
-            // scanning original image
-            TesseractEngine engineImage = new TesseractEngine("./tessdata", "eng", EngineMode.Default);
-            Page imagePage = engineImage.Process(image, PageSegMode.Auto);
+            string correctNumber = correctScanedNumber(ScanCaptcha(finalImage)); //Scan captcha and correct it.
 
-            // scanning finalImage
-            TesseractEngine engine = new TesseractEngine("./tessdata", "eng", EngineMode.Default);
-            Page page = engine.Process(finalImage, PageSegMode.Auto);
-            string imageNumber = page.GetText();
-
-            if (correctScanedNumber(imageNumber).Equals("false")) webBrowser1.Navigate(siteUrl);
+            if (correctNumber.Equals("false")) webBrowser1.Navigate(siteUrl); //if couldn't scan the right captcha, refresh the page to scan a new captcha
             else // show information to user
             {
                 pictureBox1.Image = image;
                 pictureBox2.Image = finalImage;
-                textBox1.Text = correctScanedNumber(imageNumber); // check some special characters
-                textBox2.Text = imagePage.GetText();
+                textBox1.Text = correctNumber; 
+                textBox2.Text = ScanCaptcha(image);
             }
         }
 
@@ -168,7 +161,11 @@ namespace SanjeshCaptchaScan
             {
                 if (isLegal(imageNumber[i]))
                 {
-                    if (imageNumber[i] == 'o' || imageNumber[i] == 'd' || imageNumber[i] == 'b' || imageNumber[i] == 'a' || imageNumber[i] == '9') number += "0";
+                    /*
+                    * the charecters in the if statement body might be scaned incorrectly to the charecters in the if statement condition. so we correct theme manully!
+                    * captcha numbers are in the range of 0 to 5. so numbers greater than 5 can't be correct scaned number!
+                    */
+                    if (imageNumber[i] == 'o' || imageNumber[i] == 'd' || imageNumber[i] == 'b' || imageNumber[i] == 'a' || imageNumber[i] == '9') number += "0"; 
                     else if (imageNumber[i] == '?') number += "2";
                     else if (imageNumber[i] == '$' || imageNumber[i] == '%') number += "35";
                     else if (imageNumber[i] == '8') number += "3";
@@ -227,6 +224,13 @@ namespace SanjeshCaptchaScan
             }
         }
 
+        private string ScanCaptcha(Bitmap captchaImage)
+        {
+            TesseractEngine engine = new TesseractEngine("./tessdata", "eng", EngineMode.Default);
+            Page page = engine.Process(captchaImage, PageSegMode.Auto);
+            return page.GetText(); 
+        }
+
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -239,6 +243,10 @@ namespace SanjeshCaptchaScan
 
         private void RefreshButton_Click(object sender, EventArgs e)
         {
+            pictureBox1.Image = null;
+            pictureBox2.Image = null;
+            textBox1.Text = "";
+            textBox2.Text = "";
             webBrowser1.Navigate(siteUrl);
         }
 
